@@ -15,12 +15,22 @@ All conveyor belts have a fixed capacity and only one of two sides is used for s
 
 ### Decision Variables
 
-* x1 (x[0] in the code): number of Iron Ore Drills
-* x2 (x[1] in the code): number of Copper Ore Drills
-* x3 (x[2] in the code): number of Gear Wheel Assemblers
-* x4 (x[3] in the code): number of Red Science Pack Assemblers
-* x5 (x[4] in the code): total Gear Wheel production per minute
-* x6 (x[5] in the code): total Red Science Pack production per minute
+/[
+\begin{align*}
+\text{Maximize} \quad & x_6 \\
+\text{subject to} \quad & 42x_1 \leq 900 \\
+& 42x_2 \leq 900 \\
+& x_5 \leq 900 \\
+& x_6 \leq 900 \\
+& x_5 \leq 150x_3 \\
+& x_6 \leq 9x_4 \\
+& x_5 = \frac{42x_1}{2} \\
+& x_5 = 9x_4 \\
+& 42x_2 = 9x_4 \\
+& x_i \geq 0 \quad \text{for} \quad i = 1, \ldots, 6
+\end{align*}
+\]
+
 
 ### Constraints
 
