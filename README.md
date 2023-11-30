@@ -9,7 +9,7 @@ In Factorio, your objective is to automate the collection and processing of raw 
 Our factory layout is simple. Iron and Copper Ore are first mined from deposits of raw materials by Drills (bottom), which place them onto conveyor belts. Then, these raw materials are smelted into Iron and Copper Plates. The Iron Plates are delivered to a group of Gear Wheel Assemblers. The Gear Wheels and Copper Plates, by the same process, are delivered to a group of Red Science Pack Assemblers (top). The output of these is our objective value. The decision variables correspond to the numbers of Drills and Assemblers as detailed in the [Decision Variables section](#decision-variables).
 
 * ![Assemblers](images/assemblers.png)
-* ![Drills](drills.png)
+* ![Drills](images/drills.png)
 
 All conveyor belts have a fixed capacity and only one of two sides is used for simplicity. Items are transferred to and from conveyor belts, assembling machines, and drills by Inserters, which take a small amount of time to transfer items (though we use the fastest variant available in-game). All raw materials must be smelted, but we assume 100% throughput and build as many furnaces as necessary. Despite these attempts to mitigate error, the existence of factors that cannot be easily modeled mathematically contributes to small amounts of error in the final factory implementation, such as material buildups which our constraints should prevent, and production numbers that are slightly different from optimality. Final production details for the in-game factory are detailed in the “Results” section.
 
