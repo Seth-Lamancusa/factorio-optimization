@@ -15,32 +15,7 @@ All conveyor belts have a fixed capacity and only one of two sides is used for s
 
 ### Formulation
 
-```math
-\text{Maximize} \quad & x_6 \\
-\text{subject to} \quad & 42x_1 \leq 900 \\
-& 42x_2 \leq 900 \\
-& x_5 \leq 900 \\
-& x_6 \leq 900 \\
-& x_5 \leq 150x_3 \\
-& x_6 \leq 9x_4 \\
-& x_5 = \frac{42x_1}{2} \\
-& x_5 = 9x_4 \\
-& 42x_2 = 9x_4 \\
-& x_i \geq 0 \quad \text{for} \quad i = 1, \ldots, 6
-```
-
-
-### Constraints
-
-Our objective is to maximize the Red Science Pack production per minute, so the objective function is equal to x6.
-
-The first set of constraints deal with the conveyor belt capacity, and the throughput of the belts is 900 items per minute.
-
-The second set of constraints deal with the Gear Wheel and Red Science Pack Assemblers and their corresponding output. A single Gear Wheel Assembler produces 150 gears per minute and a single Red Science Pack Assembler produces 9 Red Science Packs per minute.
-
-The third set of constraints ensure that the material that is consumed is equal to the amount that was produced. Each Gear Wheel requires 2 Iron Plates to produce, and each Red Science Pack requires 9 Gear Wheels and 9 Copper Plates to produce.
-
-The last set of constraints ensure that none of our decision variables can be negative as this would not make sense within the game.
+The commented program formulation, including constraint explanations can be found in the program.ipynb file in the main directory.
 
 ### Results
 
