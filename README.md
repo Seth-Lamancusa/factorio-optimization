@@ -12,12 +12,12 @@ All conveyor belts have a fixed capacity and only one of two sides is used for s
 
 ### Decision Variables
 
-x1 (x[0] in the code): number of Iron Ore Drills
-x2 (x[1] in the code): number of Copper Ore Drills
-x3 (x[2] in the code): number of Gear Wheel Assemblers
-x4 (x[3] in the code): number of Red Science Pack Assemblers
-x5 (x[4] in the code): total Gear Wheel production per minute
-x6 (x[5] in the code): total Red Science Pack production per minute
+* x1 (x[0] in the code): number of Iron Ore Drills
+* x2 (x[1] in the code): number of Copper Ore Drills
+* x3 (x[2] in the code): number of Gear Wheel Assemblers
+* x4 (x[3] in the code): number of Red Science Pack Assemblers
+* x5 (x[4] in the code): total Gear Wheel production per minute
+* x6 (x[5] in the code): total Red Science Pack production per minute
 
 ### Constraints
 
