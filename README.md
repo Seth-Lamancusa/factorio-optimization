@@ -36,7 +36,7 @@ The last set of constraints ensure that none of our decision variables can be ne
 The optimization of the Factorio Red Science Pack production process has given us results, shown in the table below. The objective function, representing the total production per minute of Red Science Packs, achieved a maximum value of 378 units. The decision variables with their given quantity output are 18 Drills for iron extraction, 9 Drills for copper extraction, 3 Gear Wheel Assemblers, 42 Red Science Pack Assemblers, 378 Gear Wheels produced per minute, and 378 Red Science Packs produced per minute. The decision variables were defined to maintain the balance between input and output quantities, considering the capacity limitation of the fast transportation belts and the speed of the assemblers.
 
 | Component/Variables | Quantity |
-----------------------------------
+| ----------------- | ---------------- |
 | Iron Drills | 18 |
 |Copper Drills | 9 |
 | Gear Assemblers | 3 |
