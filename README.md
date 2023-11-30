@@ -1,6 +1,6 @@
 # factorio-optimization
 
-This is a repository containing the documentation and Python code for a project for ISE 3230. The project was completed by Connor Burke, Krish Patel, and I. The course content pertains to optimization via linear programming. The project was open-ended and required finding an application for linear program modeling to a domain of our choice. We chose the video game "Factorio". A video presentation overview can be viewed [https://www.youtube.com/watch?v=EkG-NCBqLzQ](here).
+This is a repository containing the documentation and Python code for a project for ISE 3230. The project was completed by Connor Burke, Krish Patel, and I. The course content pertains to optimization via linear programming. The project was open-ended and required finding an application for linear program modeling to a domain of our choice. We chose the video game "Factorio". A video presentation overview can be viewed (https://www.youtube.com/watch?v=EkG-NCBqLzQ)[here].
 
 ### Introduction
 
