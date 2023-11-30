@@ -15,9 +15,7 @@ All conveyor belts have a fixed capacity and only one of two sides is used for s
 
 ### Formulation
 
-/[
-\begin{align*}
-\text{Maximize} \quad & x_6 \\
+$ \text{Maximize} \quad & x_6 \\ $
 \text{subject to} \quad & 42x_1 \leq 900 \\
 & 42x_2 \leq 900 \\
 & x_5 \leq 900 \\
@@ -28,8 +26,6 @@ All conveyor belts have a fixed capacity and only one of two sides is used for s
 & x_5 = 9x_4 \\
 & 42x_2 = 9x_4 \\
 & x_i \geq 0 \quad \text{for} \quad i = 1, \ldots, 6
-\end{align*}
-\]
 
 
 ### Constraints
